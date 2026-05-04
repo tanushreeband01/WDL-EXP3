@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #eef2ff, #f8fafc);
+}
+
+.sidebar {
+    min-height: 100vh;
+    background: #111827;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 12px;
+    margin: 5px 0;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background: #2563eb;
+    transform: translateX(5px);
+}
+
+.card {
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.dark-mode {
+    background: #0f172a !important;
+    color: white !important;
+}
+
+.toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+/* 🔥 BIG FOOTER */
+footer {
+    padding: 30px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background: linear-gradient(90deg, #111827, #1f2937);
+    box-shadow: 0 -5px 15px rgba(0,0,0,0.2);
+}
